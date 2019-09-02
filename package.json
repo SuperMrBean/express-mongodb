@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "consola": "^2.10.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.16.2",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mongoose": "^5.6.11",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "~1.9.0"
+  }
+}
