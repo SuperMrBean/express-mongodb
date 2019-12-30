@@ -4,9 +4,9 @@
 const users = require('./users');
 
 module.exports = app => {
-	app.post('/login', users.login);
-	app.post('/logout', users.logout);
-	app.post('/register', users.register);
-	app.post('/delUser', users.delUser);
-	app.post('/userInfo', users.userInfo);
+	app.post('/api/login', users.login);
+	app.post('/api/logout', users.logout);
+	app.post('/api/register', users.register);
+	app.post('/api/delUser', users.delUser);
+	app.post('/api/userInfo', users.userInfo);
 };
